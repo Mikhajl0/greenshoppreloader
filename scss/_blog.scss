@@ -1,0 +1,137 @@
+/*blog part one*/
+.find-more {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 1px 138px 1px;
+}
+
+.blog-more {
+    display: flex;
+    width: 586px;
+    padding-right: 30px;
+    background-color: #FBFBFB;
+}
+
+.information-search-retreat {
+    text-align: right;
+    padding-top: 89px;
+}
+
+.title-search {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 24px;
+    color: #3d3d3d;
+}
+
+.information-search {
+    margin-top: 9px;
+    margin-bottom: 25px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #727272;
+}
+
+.search-link {
+    display: inline-block;
+    background-color: #46A358;
+    padding: 11px 27px 9px 28px;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+.search-name  {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.search-svg {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/*blog part two*/
+.blog-div {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 35px;
+}
+
+.blog-title {
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0;
+    color: #3D3D3D;
+}
+
+.blog-text {
+    font-size: 14px;
+    line-height: 24px;
+    column-rule: #727272;
+    margin: 0;
+}
+/*links to blog topics*/
+.blog-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog-bloc {
+    width: 268px;
+    background-color: #FBFBFB;
+}
+
+.blog-content {
+    padding: 9px 11px 12px 15px;
+}
+
+.blog-time {
+    font-size: 14px;
+    font-weight: 500;
+    color: #46A358;
+    margin-top: 0;
+    margin-bottom: 4px;
+}
+
+.blog-names {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26px;
+    color: #3D3D3D;
+    margin-top: 0;
+    margin-bottom: 4px;
+}
+
+.blog-description {
+    font-size: 14px;
+    line-height: 22px;
+    color: #727272;
+    margin-top: 0;
+    margin-bottom: 9px;
+}
+
+.blog-transition {
+    display: flex;
+    align-content: center;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    color: #3D3D3D;
+}
+
+.blog-svg {
+    margin-left: 5px;
+}
+
+.blog-transition:hover {
+    color: #46A358;
+    stroke: #46A358;
+}

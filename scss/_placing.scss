@@ -1,0 +1,100 @@
+.footer-top {
+    margin-top: 100px;
+}
+
+.placing-cactus {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 25px 24px 25px;
+    gap: 61px;
+    background-color: #FBFBFB;
+}
+
+.placing-box {
+    display: flex;
+    gap: 61px;
+}
+
+.box {
+    width: 204px;
+    position: relative;
+}
+
+.box::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: -30px;
+    height: 100%;
+    width: 1px;
+    background-color: #46A3581A;
+}
+
+.box:last-of-type::after {
+    display: none; /* Сховати лінію для останнього елемента */
+}
+
+.placing-img {
+    padding-left: 15px;
+}
+
+.placling-description {
+    margin-top: 15px;
+}
+
+.headlines {
+    display: inline;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 17px;
+    color: #3D3D3D;
+}
+
+.placing-text {
+    font-size: 14px;
+    line-height: 22px;
+    color: #727272;
+    margin-top: 9px;
+    margin-bottom: 0;
+}
+
+.placing-cell {
+    width: 354px;
+    padding-top: 13px;
+}
+
+.placing-form {
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+    margin-bottom: 18px;
+}
+
+.placing-imput {
+    height: 40px;
+    width: 269px;
+    border: 1px solid #FFFFFF;
+    border-radius: 6px 0 0 6px; 
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.placing-imput::placeholder {
+    color: #ACACAC;
+}
+
+.placing-button {
+    width: 85px;
+    height: 40px;
+    background-color: #46A358;
+    border: 1px solid #46A358;
+    border-radius: 0 6px 6px 0;
+    color: #FFFFFF;
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 700;
+}
+
+.text-placing {
+    margin-top: 0;
+}

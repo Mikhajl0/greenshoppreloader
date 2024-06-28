@@ -1,0 +1,43 @@
+ .footer-contacts {
+    display: flex;
+    justify-content: space-between;
+    gap: 155px;
+    align-items: center;
+}
+
+.footer-contacts-retreat {
+    padding: 25px 22px 19px 23px;
+    background: linear-gradient(90deg, #EDF6EF 0%, #52C368 100%);
+}
+
+.footer-address {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-div {
+    width: 210px;
+}
+
+.footer-svg-icon {
+    margin-right: 5px;
+}
+
+.address-text {
+    font-size: 14px;
+    line-height: 22px;
+    color: #3D3D3D;
+}
+
+.address-contacts {
+    text-decoration: none;
+}
+
+.address-img {
+    margin-right: 9px;
+}
+
+.address-img-mailto {
+    margin-right: 10px
+}

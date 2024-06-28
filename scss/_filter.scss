@@ -1,0 +1,57 @@
+.offer {
+    margin-bottom: 94px;
+}
+
+.filter-contetn {
+    display: flex;
+    justify-content: space-between;
+}
+
+.column-left {
+    background-color: #FBFBFB;
+    height: 1268px;
+    display: flex;
+    flex-direction: column;
+}
+
+.aside {
+    display: inline-block;
+    height: 774px;
+    padding-top: 14px;
+    padding-left: 18px;
+}
+
+.categories {
+    display: inline;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 16px;
+    color: #3D3D3D;
+}
+
+.categories-name {
+    display: block;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 40px;
+    color: #3D3D3D;
+    padding-top: 7px;
+    padding-left: 12px;
+}
+
+.categories-name:hover {
+    color: #46A358;
+}
+
+.super-sale {
+    padding: 18px 22px 17px 22px;
+}
+
+.discount {
+    margin: 15px 0 0 0;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 16px;
+    text-align: center;
+}

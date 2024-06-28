@@ -1,0 +1,61 @@
+.card {
+    position: relative;
+}
+
+.card-flowers {
+    position: relative;
+    overflow: hidden;
+}
+
+.card-hover {
+    display: flex;
+    justify-content: center;
+    gap: 27px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -37px;
+    transition: 1s;
+}
+
+.card:hover .card-hover {
+    bottom: 7px;
+    transition: 2s;
+}
+
+.card-button {
+    border: none;
+}
+
+.social-icon:hover path {
+    stroke: #46A358;
+}
+
+.card::before {
+    content: "";
+    height: 2px;
+    background-color: green;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    display: none;
+    z-index: 1;
+}
+
+.card:hover::before {
+    display: block;
+}
+
+.bar-text {
+    position: absolute;
+    left: 0;
+    top: 14px;
+    background-color: #46A358;
+    padding: 7px 8px 6px 9px;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    z-index: 2;
+}

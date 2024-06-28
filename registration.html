@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Register</title>
+</head>
+<body>
+    <div class="registration-color">
+        <div class="div wrapper-registration">
+            <!--registration link-->
+            <div class="return">
+                <a href="./index.html" class="exit">
+                    <img src="./images/X.png" alt="Entrance" class="img-exit">
+                </a>
+            </div>
+            <div class="headlines">
+                <a href="#" class="title login">Login</a>
+                <span class="gap">I</span>
+                <a href="#" class="title register">Register</a>
+            </div>    
+            <p class="hint">
+                Enter your email and password to register.
+            </p>
+            <!--form to fill out-->
+            <form action="https://fom.in.ua/echo" method="post" >
+               <input type="text" name="username" placeholder="Username" minlength="3" maxlength="10" required class="form form-top">
+               <input type="email" name="email-address" placeholder="Enter your email address" required class="form">
+               <input type="password" name="password" placeholder="Password" minlength="8" maxlength="15" required class="form">
+               <input type="password" name="confirm-password" placeholder="Confirm Password" minlength="8" maxlength="15" required class="form form-end">
+               <button type="submit" class="button">
+                  Register
+               </button>
+            </form> 
+            <div>
+                <sup>
+                    <img src="./images/linel.png" alt="line" class="line line-left">
+                </sup>
+                <p class="hint line">
+                    Or register with 
+                </p> 
+                <sup>
+                    <img src="./images/liner.png" alt="line" class="line line-right">
+                </sup> 
+            </div>
+            <!--registration through Google or Facebook-->
+            <a href="https://www.google.com" class="network network-google">
+                    <img src="./images/google.png" 
+                    alt="Google">
+                <span class="continue">
+                    Continue with Google
+                </span>
+            </a>
+            <br>
+            <a href="https://www.facebook.com" class="network network-facebook">
+                <img src="./images/facebook.png" 
+                  alt="Facebook">
+                <span class="continue">
+                    Continue with Facebook
+                </span>
+            </a>
+            <div class="green-line"></div>   
+        </div>
+    </div>
+</body>
+</html>

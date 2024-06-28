@@ -1,0 +1,57 @@
+/*part of the content*/
+.green {
+    margin-bottom: 25px;
+}
+
+.content {
+    background-color: rgba(245, 245, 245, 0.5);
+    padding-left: 40px;
+    vertical-align: top;
+    display: flex;
+    justify-content: space-between;
+}
+.text-content{
+    padding-top: 68px;
+    padding-bottom: 85px;
+    display: inline-block;
+    vertical-align: top;
+    width: 557px;
+}
+
+.welcome {
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 7px;
+    line-height: 16px;
+}
+
+.title {
+    font-size: 70px;
+    font-weight: 900;
+    margin: 0;
+    line-height: 70px;
+}
+
+.names {
+    color: #3D3D3D;
+}
+
+.planet {
+    color: #46A358;
+}
+
+.description {
+     font-size: 14px;
+     color: #727272;
+     margin-top: 5px;
+     margin-bottom: 44px;
+     line-height: 24px;
+}
+.shop {
+    font-weight: 700;
+    padding: 11px 27px 8px 26px;
+}
+.img-flower {
+    display: inline-block;
+}
