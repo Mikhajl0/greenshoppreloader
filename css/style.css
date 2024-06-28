@@ -650,13 +650,57 @@ body {
   padding: 11px 27px 9px 28px;
   border-radius: 6px;
   text-decoration: none;
+  border: 0;
+  position: relative;
+  width: 140px;
+  height: 40px;
 }
 
+.preloader::after {
+  position: absolute;
+  top: 0;
+  bottom: 4%;
+  right: 0;
+  left: 0;
+  content: " ";
+  display: block;
+  margin: auto;
+  height: 32px;
+  width: 132px;
+  box-sizing: border-box;
+  border: solid;
+  border-width: 4px;
+  border-radius: 50%;
+  border-top-color: #6becbb;
+  border-right-color: #6becbb;
+  border-left-color: #6becbb;
+  border-bottom-color: #6becbb;
+  animation: rotating 2s linear infinite;
+}
+
+@keyframes rotating {
+  from {
+    border-top-color: #e7dc42;
+  }
+  25% {
+    border-right-color: #e7dc42;
+  }
+  75% {
+    border-bottom-color: #e7dc42;
+  }
+  to {
+    border-left-color: #e7dc42;
+  }
+}
 .search-name {
+  color: #FBFBFB;
   font-size: 14px;
-  font-weight: 500;
   line-height: 20px;
-  color: #FFFFFF;
+  font-weight: 500;
+}
+
+.preloader-text {
+  color: #e7dc42;
 }
 
 .search-svg {
